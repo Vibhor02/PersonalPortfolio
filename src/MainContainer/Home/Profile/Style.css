@@ -1,0 +1,374 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+    
+}
+.det{
+    padding-right: 8%;
+    padding-left: 15%;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+nav ul li a{
+    text-decoration: none!important;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: orange;
+    transition: .4s;
+}
+.logo{
+    color: Bold black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor:pointer;
+    font-family: cursive;
+}
+.log{
+    color: orange;
+}
+.det{
+    list-style-type: none;
+    float: left;
+    margin: 0 20px;
+}
+.profile-container{
+    height:100vh;
+    width:100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   background-size: cover;
+   background-position: center;
+    background-image: url('../../../requirement/home/bg.jpg');
+    
+   
+}
+.profile-parent{
+    display: flex;
+    align-items: center;
+    color: rgb(20, 114, 196);
+}
+.profile-details-name{
+    font-size: 24px;
+    font-family: "Poppins SemiBold";
+}
+.details-role{
+    display: flex;
+    flex-direction: column;
+    margin: 14px 0 24px 0;
+}
+.details-role{
+font-size: 40px;
+font-family: cursive;
+}
+.first{
+    color: (--white);
+}
+.highlighted-text{
+    color: var(--dark-orange);
+}
+.profile-role-tagline{
+    font-size: 19px;
+    margin: 5px 0 0 0;
+    font-family: "Poppins Light";
+}
+.options .highlighted-btn{
+    margin: 0 0 0 28px;
+}
+.options .highlighted-btn:hover{
+
+    margin: 0 0 0 28px;
+    background-color: cornsilk;
+    color: #111;
+}
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px var(--white);
+    border-radius: 50%;
+    height: 400px;
+    width: 380px;
+    margin: 0 0px 0 100px;
+}
+.pic-background{
+    height: 92%;
+    width: 92%;
+    background-image: url('../../../requirement/home/profilephoto.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.pic-background{
+    transform: scale(1.07);
+    transition: 1s ease-out;
+}
+.colz.colz-icon i{
+    color: white;
+    padding: 8px;
+    padding-left: 0px;
+}
+.colz.colz-icon:hover{
+    transform: scale(1.5);
+}
+@media screen and(max-width: 1110px){
+    .pic{
+        margin: 0 0px 0 80px;
+    }
+    .details-name{
+       font-size: 20px; 
+    }
+    .profil-details .first{
+        font-size: 32px;
+    }
+    .option .btn{
+        width: 120px;
+        padding:11px;
+        z-index: 700px;
+
+    }
+}
+@media screen and(max-width: 910px){
+    .pic{
+        height: 320px;
+        width:320px;
+        margin: 0 0 0 4px;
+    }
+}
+@media screen and(max-width: 810px){
+    .pic{
+        margin: 0 ! important;
+    }
+    .profile-parent{
+        flex-direction: column-reverse;
+        margin:40px 0 0 0;
+    }
+    .options{
+        display: flex;
+        justify-content: space-between;
+    }
+    .profil-details{
+        margin: 25px 0 0 ;
+    }
+    .options .highlighted-btn{
+        margin: 0 !important;
+    }
+    .options, .details-role{
+        text-align: centre;
+    }
+}
+@media screen and(max-width: 375px){
+    .pic{
+        height: 275px;
+        width: 275px;
+        margin-top: -90px;
+    }
+    .profile-details{
+        width:90%;
+    }
+}
+
+.about{
+   width: 100%;
+   padding: 100px 0px;
+   background-color: skyblue;
+}
+.about img{
+    
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display: flex;
+    align-items: centre;
+    justify-content: space-around;
+}
+
+h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: cursive;
+}
+.about-text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.about-text p{
+    color: darkblue;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+section a,
+button{
+    background-color: orange;
+    color: white;
+    text-decoration: none!important;
+    border: 2x solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+button:hover{
+    background-color: blanchedalmond;
+    border: 2px solid orange;
+}
+.Edu{
+    background-color: lightblue;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title{
+     margin: 30px auto;
+     text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: lightblue;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: orange;
+}
+h5{
+    color: black;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.para p{
+    color: darkblue;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.max{
+    text-align: center;
+}
+.contact{
+    font-family: 'Poppins','sans-serif';
+    background-color: aliceblue;
+    background-size:  100%; 
+}
+.centent-contat{
+    padding: 100px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    text-align-last: left;
+}
+.contact .centent-contat .column{
+      width: calc(50% -30px);
+
+}
+.contact .centent-contat .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.contact .centent-contat .left{
+    text-align: justify;
+
+}
+.contact .centent-contat .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+}
+.contact .centent-contat .row .info{
+    margin-left: 30px;
+}
+.contact .centent-contat .row .info .head{
+      font-weight: bold;
+}
+.contact .centent-contat .info .sub-title{
+    color: #333;
+}
+.contact .right form .fields{
+    display: flex;
+}
+.contact .right form .fields,
+.contact .right form .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom:15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+
+}
+.contact .right form .name{
+    margin-right:  10px;
+}
+.contact .right form .email{
+    margin-left: 10px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width:100%;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins','sans-serif' ;
+}
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    width: 500px;
+    line-height: 26px;
+}
+
+
